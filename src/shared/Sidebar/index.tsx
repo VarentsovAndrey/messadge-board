@@ -6,7 +6,7 @@ const Sidebar = () => {
   const [sidebarName, setSidebarName] = useState('Super admin');
 
   return (
-    <div className={style.admin}>
+    <section className={style.admin}>
       <div className={style.admin_menu}>
         <div className={style.admin_menu__logo}>
           <Logo id="admin" />
@@ -26,7 +26,7 @@ const Sidebar = () => {
         <Logo id="exit" />
         <p className={style.admin_exit__text}>Выход</p>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -5,7 +5,7 @@ import style from './Header.module.scss';
 
 const Header = () => {
   return (
-    <div className={style.header}>
+    <section className={style.header}>
       <div className={style.logo}>
         <Logo id="svg" />
       </div>
@@ -13,7 +13,7 @@ const Header = () => {
         <Logo id="link" />
         <p className={style.link_profile}>Профиль</p>
       </div>
-    </div>
+    </section>
   );
 };
 
