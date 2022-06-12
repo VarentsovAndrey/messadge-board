@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtonAdd from '../../shared/ButtonAdd';
 import Footer from '../../shared/Footer';
 import Header from '../../shared/Header';
 import Sidebar from '../../shared/Sidebar';
@@ -10,6 +11,7 @@ const PageLayout = () => {
       <Header />
       <div className={style.content_wrapper}>
         <Sidebar />
+        <ButtonAdd />
       </div>
 
       <Footer />

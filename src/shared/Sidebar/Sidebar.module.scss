@@ -8,6 +8,7 @@
 .admin_menu {
   display: flex;
   border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+  cursor: pointer;
 }
 
 .admin_menu__logo {
@@ -47,6 +48,7 @@
   opacity: 0.6;
 }
 .admin_ads {
+  cursor: pointer;
   padding-top: 26px;
   padding-bottom: 26px;
   display: flex;
@@ -76,6 +78,7 @@
 }
 
 .admin_exit {
+  cursor: pointer;
   display: flex;
   align-items: center;
   padding-left: 1.25vw;
