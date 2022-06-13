@@ -2,6 +2,7 @@
   margin-top: 40px;
   margin-left: 19.5vw;
   width: 263px;
+
   background-color: #ffffff;
 }
 
@@ -9,6 +10,7 @@
   display: flex;
   border-bottom: 1px solid rgba(42, 47, 55, 0.1);
   cursor: pointer;
+  height: 88px;
 }
 
 .admin_menu__logo {
@@ -48,6 +50,7 @@
   opacity: 0.6;
 }
 .admin_ads {
+  height: 88px;
   cursor: pointer;
   padding-top: 26px;
   padding-bottom: 26px;
@@ -78,6 +81,7 @@
 }
 
 .admin_exit {
+  height: 88px;
   cursor: pointer;
   display: flex;
   align-items: center;

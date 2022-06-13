@@ -1,0 +1,26 @@
+.caption {
+  border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+  display: flex;
+  justify-content: space-between;
+  width: 867px;
+}
+.title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2c2d2e;
+}
+
+.subtitle {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2c2d2e;
+  opacity: 0.6;
+  margin: 0;
+  padding-bottom: 32px;
+}
