@@ -1,0 +1,51 @@
+.table {
+  width: 867px;
+
+  display: flex;
+  align-items: center;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2c2d2e;
+  opacity: 0.6;
+  margin-top: 24px;
+}
+
+.table_name {
+  display: flex;
+  padding-left: 24px;
+}
+.table_item {
+  padding-left: 24px;
+  margin: 0;
+}
+.table_button {
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.table_button__arrow {
+  height: 16px;
+  cursor: pointer;
+  border: none;
+  color: #2c2d2e;
+  opacity: 0.6;
+  background-color: #ffffff;
+}
+
+.table_item__category {
+  padding-left: 104px;
+  margin: 0;
+}
+.table_item__data {
+  padding-left: 120px;
+  margin: 0;
+}
+
+.table_item__publish {
+  padding-left: 73px;
+  margin: 0;
+}

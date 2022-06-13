@@ -4,7 +4,7 @@ import style from './InputSearch.module.scss';
 
 const InputSearch = () => {
   return (
-    <form className={style.search}>
+    <div className={style.search}>
       <div className={style.search_input}>
         <input type="text" placeholder="Найти объявление" className={style.search_text} />
         <button type="button" className={style.search_button}>
@@ -20,7 +20,7 @@ const InputSearch = () => {
           <Logo id="arrow-right" />
         </button>
       </div>
-    </form>
+    </div>
   );
 };
 
