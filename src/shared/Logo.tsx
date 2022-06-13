@@ -5,8 +5,6 @@ interface Props {
 }
 
 const Logo = ({ id }: Props) => {
-  const [backgroundColor, setBackgroundColor] = useState('');
-
   switch (id) {
     case 'svg':
       return (
@@ -164,7 +162,64 @@ const Logo = ({ id }: Props) => {
           />
         </svg>
       );
-
+    case 'search':
+      return (
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+            stroke="#2C2D2E"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M21.0001 20.9999L16.6501 16.6499"
+            stroke="#2C2D2E"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
+    case 'arrow-left':
+      return (
+        <svg
+          width="8"
+          height="14"
+          viewBox="0 0 8 14"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7 13L1 7L7 1"
+            stroke="#2C2D2E"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
+    case 'arrow-right':
+      return (
+        <svg
+          width="8"
+          height="14"
+          viewBox="0 0 8 14"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1 0.999999L7 7L1 13"
+            stroke="#2C2D2E"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
     default:
       return <svg></svg>;
   }

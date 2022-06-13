@@ -9,7 +9,6 @@ const Title = () => {
         <h1 className={style.title}>Объявления</h1>
         <h3 className={style.subtitle}>Всего: 45</h3>
       </div>
-
       <ButtonAdd />
     </div>
   );
