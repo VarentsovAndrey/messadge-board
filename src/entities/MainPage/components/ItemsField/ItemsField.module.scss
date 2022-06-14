@@ -1,0 +1,33 @@
+.itemsField {
+  width: 867px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.itemsField_name {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #2c2d2e;
+  margin: 0;
+  padding-left: 24px;
+}
+
+.itemsField_category {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.itemsField_button {
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  &:hover {
+    opacity: 0.6;
+  }
+}

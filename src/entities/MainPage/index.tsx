@@ -1,5 +1,8 @@
 import React from 'react';
+import { mockedItems } from '../../mocks/mockedItems';
 import InputSearch from './components/InputSearch';
+import ItemsField from './components/ItemsField';
+import ItemsFieldComponent from './components/ItemsFieldComponent';
 
 import Table from './components/Table';
 import Title from './components/Title';
@@ -12,6 +15,7 @@ const MainPage = () => {
       <Title />
       <InputSearch />
       <Table />
+      <ItemsFieldComponent itemsDataAttr={mockedItems} />
     </section>
   );
 };

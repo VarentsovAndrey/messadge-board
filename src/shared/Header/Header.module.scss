@@ -1,7 +1,6 @@
 .header {
   display: flex;
-  padding-right: 19.5vw;
-  padding-left: 19.5vw;
+  margin: auto;
   justify-content: space-between;
   padding-top: 1.25vw;
   padding-bottom: 1.25vw;
@@ -10,6 +9,7 @@
 
 .link {
   display: flex;
+  padding-left: 982px;
 }
 
 .link_profile {
