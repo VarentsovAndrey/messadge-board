@@ -264,6 +264,18 @@ const Logo = ({ id }: Props) => {
         </svg>
       );
 
+    case 'line':
+      return (
+        <svg
+          width="263"
+          height="1"
+          viewBox="0 0 263 1"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <line y1="0.5" x2="263" y2="0.5" stroke="#2A2F37" strokeOpacity="0.1" />
+        </svg>
+      );
+
     default:
       return <svg></svg>;
   }

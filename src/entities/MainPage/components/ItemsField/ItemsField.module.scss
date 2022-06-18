@@ -1,12 +1,13 @@
 .itemsField {
-  width: 867px;
+  width: 65%;
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 .itemsField_name {
-  font-family: 'Jost';
+  box-sizing: border-box;
+  width: 35%;
+  font-family: 'Jost' !important;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -16,6 +17,7 @@
 }
 
 .itemsField_category {
+  width: 23%;
   font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
@@ -23,6 +25,12 @@
   line-height: 24px;
 }
 
+.itemsField_data {
+  width: 23%;
+}
+.itemsField_publication {
+  width: 14%;
+}
 .itemsField_button {
   cursor: pointer;
   border: none;

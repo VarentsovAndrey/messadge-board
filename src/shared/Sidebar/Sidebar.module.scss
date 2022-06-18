@@ -1,22 +1,32 @@
 .admin {
-  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  min-width: 13.7vw;
   margin-left: 19.5vw;
-  width: 263px;
-
+  margin-top: 40px;
   background-color: #ffffff;
 }
 
+.admin_border {
+  border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+}
 .admin_menu {
   display: flex;
-  border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+  margin-bottom: 24px;
+  margin-top: 24px;
   cursor: pointer;
-  height: 88px;
+  height: 40px;
+  &:hover {
+    border-left: solid 2px #4877f2;
+    svg {
+      path {
+        stroke: #4877f2;
+      }
+    }
+  }
 }
 
 .admin_menu__logo {
-  margin-left: 24px;
-  margin-top: 24px;
-  margin-bottom: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,13 +41,16 @@
 
 .admin_description__name {
   margin: 0;
-  padding-top: 24px;
+
   font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   color: #2a2f37;
+  &:hover {
+    color: #4877f2;
+  }
 }
 .admin_description__menu {
   font-family: 'Jost', sans-serif;
@@ -48,19 +61,32 @@
   color: #2a2f37;
   margin: 0;
   opacity: 0.6;
+  &:hover {
+    color: #4877f2;
+  }
 }
 .admin_ads {
-  height: 88px;
+  border-left: solid 2px transparent;
+  height: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   cursor: pointer;
-  padding-top: 26px;
-  padding-bottom: 26px;
   display: flex;
-  color: rgba(42, 47, 55, 0.08);
   align-items: center;
   padding-left: 1.25vw;
-  border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+
   &:hover {
     border-left: solid 2px #4877f2;
+    svg {
+      path {
+        stroke: #4877f2;
+      }
+    }
+    .admin_ads__text {
+      color: #4877f2;
+    }
   }
 }
 
@@ -75,23 +101,26 @@
   line-height: 24px;
   color: #2a2f37;
   padding-left: 0.625vw;
-  &:hover {
-    color: #4877f2;
-  }
 }
 
 .admin_exit {
-  height: 88px;
+  height: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   cursor: pointer;
   display: flex;
   align-items: center;
   padding-left: 1.25vw;
-  padding-top: 26px;
-  padding-bottom: 26px;
 
   &:hover {
     border-left: solid 2px #4877f2;
-    color: #4877f2;
+    svg {
+      path {
+        stroke: #4877f2;
+      }
+    }
   }
 }
 .admin_exit__text {
