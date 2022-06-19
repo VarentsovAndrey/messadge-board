@@ -14,8 +14,8 @@ const MainPage = () => {
   return (
     <section className={style.mainPage}>
       <Title />
-      <DropDownMenu />
       <InputSearch />
+
       <Table />
       <ItemsFieldComponent itemsDataAttr={mockedItems} />
     </section>
@@ -23,3 +23,14 @@ const MainPage = () => {
 };
 
 export default MainPage;
+
+// interface IProps {
+//   id: number;
+//   name: string;
+//   category: string;
+//   data: string;
+//   publication: string;
+// }
+
+// const ItemsField: FC<IProps> = ({ id, name, category, data, publication }) => {
+//   const [modalActive, setModalActive] = useState(true);

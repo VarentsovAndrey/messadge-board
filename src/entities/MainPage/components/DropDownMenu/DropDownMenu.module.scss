@@ -1,11 +1,22 @@
 .dropDownMenu {
-  width: 12.6vw;
+  display: none;
+
   min-height: 7.5vw;
-  border: solid 1px black;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 0.73vw;
+  position: relative;
+}
+
+.dropDownMenu_active {
+  display: block;
+  width: 12.6vw;
+  margin-left: 31vw;
+  position: absolute;
+  z-index: 1;
+  background: #ffffff;
 }
 
 .dropDownMenu_item {
@@ -13,9 +24,11 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+  max-width: 12.6vw;
   padding-top: 0.83vw;
   padding-left: 1.3vw;
   padding-bottom: 0.83vw;
+
   &:hover {
     background: rgba(44, 45, 46, 0.04);
     border: 1px solid rgba(44, 45, 46, 0.08);

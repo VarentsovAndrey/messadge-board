@@ -1,10 +1,29 @@
-import React from 'react';
+import React, { FC, SetStateAction } from 'react';
 import Logo from '../../../../shared/Logo';
 import style from './DropDownMenu.module.scss';
 
-const DropDownMenu = () => {
+interface IProps {
+  active: boolean;
+  setActive: any;
+}
+
+const DropDownMenu: FC<IProps> = ({ active, setActive }) => {
+  const handleClick = () => {
+    setActive(false);
+  };
+  const handleKeyDown = (e: { keyCode: number }) => {
+    if (e.keyCode === 27) {
+      setActive(false);
+    }
+  };
+
   return (
-    <div className={style.dropDownMenu}>
+    <div
+      className={active ? style.dropDownMenu_active : style.dropDownMenu}
+      onClick={handleClick}
+      onKeyDown={handleKeyDown}
+      role="button"
+      tabIndex={0}>
       <div className={style.dropDownMenu_item}>
         <Logo id="eye" />
         <p className={style.dropDownMenu_item__watch}>Просмотреть</p>
