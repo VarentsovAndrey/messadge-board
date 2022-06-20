@@ -370,6 +370,47 @@ const Logo = ({ id }: Props) => {
           </g>
         </svg>
       );
+    case 'arrow-back':
+      return (
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M19 12L5 12"
+            stroke="#2A2F37"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M12 19L5 12L12 5"
+            stroke="#2A2F37"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
+    case 'arrow-down':
+      return (
+        <svg
+          width="14"
+          height="8"
+          viewBox="0 0 14 8"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1 1L7 7L13 1"
+            stroke="#2A2F37"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
 
     default:
       return <svg></svg>;

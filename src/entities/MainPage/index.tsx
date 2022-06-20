@@ -23,14 +23,3 @@ const MainPage = () => {
 };
 
 export default MainPage;
-
-// interface IProps {
-//   id: number;
-//   name: string;
-//   category: string;
-//   data: string;
-//   publication: string;
-// }
-
-// const ItemsField: FC<IProps> = ({ id, name, category, data, publication }) => {
-//   const [modalActive, setModalActive] = useState(true);

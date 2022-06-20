@@ -1,0 +1,129 @@
+.product_name {
+  width: 65%;
+  margin-top: 2.92vh;
+  border-bottom: solid 2px transparent;
+  &:hover {
+    border-bottom: solid 2px #4877f2;
+  }
+}
+.product_name__title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2a2f37;
+  opacity: 0.6;
+
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.product_name__input {
+  background: rgba(42, 47, 55, 0.02);
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  border-radius: 4px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a2f37;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+}
+
+.product_component {
+  margin-top: 24px;
+  display: flex;
+}
+
+.product_category {
+  width: 32%;
+  border-bottom: solid 2px transparent;
+  &:hover {
+    border-bottom: solid 2px #4877f2;
+  }
+}
+.product_category__title {
+  margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2a2f37;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+.product_category__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(42, 47, 55, 0.02);
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  padding-right: 29px;
+}
+
+.product_category__item {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a2f37;
+  margin: 0;
+}
+
+.product_category__button {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background-color: rgba(42, 47, 55, 0.02);
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.product_price {
+  margin-left: 2%;
+  width: 31%;
+  border-bottom: solid 2px transparent;
+  &:hover {
+    border-bottom: solid 2px #4877f2;
+  }
+}
+
+.product_price__title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2a2f37;
+  opacity: 0.6;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.product_price__item {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a2f37;
+  background: rgba(42, 47, 55, 0.02);
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  padding-right: 29px;
+}

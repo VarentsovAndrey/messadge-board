@@ -1,0 +1,18 @@
+.buttonBack {
+  display: flex;
+  align-items: center;
+  margin-left: 2.08vw;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+.buttonBack_text {
+  margin: 0;
+  padding: 0.42vw;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
