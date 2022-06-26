@@ -4,4 +4,5 @@ export interface IItems {
   category: string;
   data: string;
   publication: string;
+  price: number;
 }

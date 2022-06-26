@@ -1,3 +1,6 @@
+.product {
+  padding-left: 40px;
+}
 .product_name {
   width: 65%;
   margin-top: 2.92vh;
@@ -79,6 +82,7 @@
   line-height: 24px;
   color: #2a2f37;
   margin: 0;
+  border: none;
 }
 
 .product_category__button {
@@ -126,4 +130,125 @@
   padding-bottom: 18px;
   padding-left: 24px;
   padding-right: 29px;
+}
+
+.product_phone {
+  width: 32%;
+  margin-top: 24px;
+  border-bottom: solid 2px transparent;
+  &:hover {
+    border-bottom: solid 2px #4877f2;
+  }
+}
+
+.product_phone__title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2a2f37;
+  opacity: 0.6;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.product_description {
+  margin-top: 24px;
+  width: 63.75%;
+  border-bottom: solid 2px transparent;
+}
+
+.product_description__title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2a2f37;
+  opacity: 0.6;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.product_description__input {
+  width: 100%;
+  border: none;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a2f37;
+  opacity: 0.4;
+  min-height: 128px;
+  resize: none;
+  background: rgba(42, 47, 55, 0.02);
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  border-radius: 4px;
+  padding-left: 1.25vw;
+  padding-top: 20px;
+}
+
+.product_foto {
+  background: #ffffff;
+  width: 65%;
+  margin-top: 2.92vh;
+}
+
+.product_foto__title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2a2f37;
+  opacity: 0.6;
+}
+
+.product_foto__input {
+  background: rgba(42, 47, 55, 0.02);
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  border-radius: 4px;
+}
+
+.product_foto__button {
+  cursor: pointer;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background: #ffffff;
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  padding: 8px 24px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.product_location {
+  background: #ffffff;
+  width: 65%;
+  margin-top: 2.92vh;
+}
+
+.product_location__title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2a2f37;
+  opacity: 0.6;
+}
+
+.product_name__input {
+  width: 100%;
+  border: none;
 }

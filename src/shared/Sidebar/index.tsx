@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../Logo';
 import style from './Sidebar.module.scss';
 
@@ -23,7 +24,9 @@ const Sidebar = () => {
           <div className={style.admin_ads__logo}>
             <Logo id="ads" />
           </div>
-          <p className={style.admin_ads__text}>Объявления</p>
+          <Link to={'/main_page'} className={style.admin_ads__text}>
+            <p>Объявления</p>
+          </Link>
         </div>
       </div>
 

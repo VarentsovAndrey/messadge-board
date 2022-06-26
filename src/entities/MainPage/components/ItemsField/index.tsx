@@ -1,4 +1,5 @@
 import React, { FC, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../../../shared/Logo';
 import DropDownMenu from '../DropDownMenu';
 
@@ -30,7 +31,8 @@ const ItemsField: FC<IProps> = ({ id, name, category, data, publication }) => {
           <Logo id="edit" />
         </button>
       </div>
-      <DropDownMenu active={modalActive} setActive={setModalActive} />
+
+      <DropDownMenu active={modalActive} setActive={setModalActive} id={id} />
     </div>
   );
 };
