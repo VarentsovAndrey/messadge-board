@@ -413,7 +413,7 @@ const Logo = ({ id }: Props) => {
       );
 
     default:
-      return <svg></svg>;
+      return <svg />;
   }
 };
 

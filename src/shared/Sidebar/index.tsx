@@ -24,7 +24,7 @@ const Sidebar = () => {
           <div className={style.admin_ads__logo}>
             <Logo id="ads" />
           </div>
-          <Link to={'/main_page'} className={style.admin_ads__text}>
+          <Link to="/main_page" className={style.admin_ads__text}>
             <p>Объявления</p>
           </Link>
         </div>

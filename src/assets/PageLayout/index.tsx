@@ -9,6 +9,8 @@ interface IPageLayout {
   children: React.ReactNode;
 }
 
+// Обычно папка assets все же для
+// картинок, общих стилей и прочего, но не для ui-компонентов
 const PageLayout: FC<IPageLayout> = ({ children }) => {
   return (
     <div className={style.section_wrapper}>

@@ -54,7 +54,8 @@ const ProductComponent: FC<IProps> = ({ name, category, price }) => {
           name="textArea"
           id="textArea"
           placeholder="Введите текст (до 3000 символов)"
-          className={style.product_description__input}></textarea>
+          className={style.product_description__input}
+        />
       </div>
 
       <div className={style.product_foto}>
