@@ -12,6 +12,7 @@ const InputSearch = () => {
         </button>
       </div>
       <div className={style.search_arrows}>
+        {/* Хардкод) понимаю, что времени наверное не было уже на пагинацию */}
         <p className={style.search_page}>1—8 из 145</p>
         <button type="button" className={style.search_toggle}>
           <Logo id="arrow-left" />

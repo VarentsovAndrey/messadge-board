@@ -31,7 +31,9 @@ const ItemsField: FC<IProps> = ({ id, name, category, data, publication }) => {
           <Logo id="edit" />
         </button>
       </div>
-
+      {/* Хороший подход, что именно через пропсы флаг прокидываешь, чтобы показывать или прятать
+модалку, а не условным рендерингом в jsx именно снаружи компонента.
+Обычно так и делают, то есть сам компонент по сути решает, как ему рисоваться, глядя на пропсы свои.  */}
       <DropDownMenu active={modalActive} setActive={setModalActive} id={id} />
     </div>
   );

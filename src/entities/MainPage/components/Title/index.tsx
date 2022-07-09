@@ -7,6 +7,7 @@ const Title = () => {
     <div className={style.caption}>
       <div>
         <h1 className={style.title}>Объявления</h1>
+        {/* Количество объявлений подвязать бы на длину массива с данными */}
         <h3 className={style.subtitle}>Всего: 45</h3>
       </div>
       <ButtonAdd />
